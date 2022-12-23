@@ -1,0 +1,187 @@
+
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;                                                                                                                                         /*Rolando */
+
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: end;
+}
+
+header nav .nav_rigth_sections{
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-right: 50px;
+}
+
+nav .nav_rigth_sections a{
+    margin-right: 10px;
+    color: #000000
+}
+
+nav .nav_rigth_sections .menu_icon{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/168/168236.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+    padding-right: 30px;
+    height: 2.5rem;
+}
+
+nav .nav_rigth_sections img{
+    border-radius: 50%;
+    margin-left: 1rem;
+    width: auto;
+}
+main{
+    margin-top: 100px;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+main .main_logo{
+    width: 530px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    /* border: 2px solid black; */
+}
+
+.main_input{
+    width: 630px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    /* border: 2px solid black; */
+
+}
+
+main .main_input_container{
+    width: 625px;
+    margin: 0 auto;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .main_input input{
+    width: 550px;
+    height: 40px;
+    border: none;
+    outline: none;
+
+}
+
+main .main_input_container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    /* border-color: #dfe1e500; */
+}
+
+main .main_input .search_icon{
+    background-image: url('https://w7.pngwing.com/pngs/456/948/png-transparent-computer-icons-desktop-web-search-engine-wordpress-com-search-icon-search-logo-website-circle-wordpresscom-thumbnail.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+    /* border: 2px solid black; */
+}
+
+main .main_logo img{
+    width: 500px;
+}
+
+main .main_input .micro_icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/417px-Google_mic.svg.png?20221103113819');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    padding-right: 20px;
+    /* border: 2px solid black; */
+}
+
+main .main_buttons{
+    width: 530px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main_buttons button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .main_buttons button:hover{
+    border:1px solid #dadce0;
+    box-shadow: 0 1px 1px #000001a2;
+    color: #222;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dadce0; 
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer_left{
+    justify-self: left;
+}
+
+footer .footer_right{
+    justify-content: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6365;
+}
